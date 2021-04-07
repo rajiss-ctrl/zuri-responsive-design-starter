@@ -406,6 +406,17 @@ div.footer h6 {
   div.gallery-section {
     width: 100%;
   }
+  div.footer {
+    width: 100%;
+    padding: 1rem;
+  }
+  div.footer-content {
+    padding: 5%;
+  }
+  .footer-textarea,
+  .footer-input {
+    text-align: center;
+  }
 }
 @media (max-width: 1024px) {
   .hero-background-pos {
