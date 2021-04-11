@@ -349,23 +349,30 @@ div.footer h6 {
 }
 @media (max-width: 768px) {
   div.nav-bar {
+    width: 100%;
+    padding: 1rem;
+  }
+  div.logo {
+    font-size: 1.2rem;
+  }
+  ul.nav-links {
+    display: block;
+    text-align: center;
+  }
+  .nav-bar .nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
-  }
-  div.logo {
-    font-size: 1rem;
-  }
-  ul.nav-links {
-    display: block;
-    text-align: center;
-
-  }
-  .nav-bar .nav-links{
+    margin: 50px 0 6px -20%;
+    font-size: 0.9rem;
     display: none;
+  }
+  ul li a:hover {
+    background: #fff;
+    color: #304353;
+    padding: 0.1rem;
   }
   .menu-and-close {
     display: block;
@@ -377,7 +384,7 @@ div.footer h6 {
     top: 10px;
     right: 1rem;
   }
-  .menu-and-close img{
+  .menu-and-close img {
     width: 30px;
   }
 
@@ -388,12 +395,14 @@ div.footer h6 {
     width: 100%;
     padding: 3rem;
   }
+  div.hero-content-heading {
+  }
   div.hero-content-heading h3 {
     font-size: 1rem;
   }
   div.hero-content-heading p {
-    padding-top: 0.7rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    padding: 6%;
   }
 
   div.hero-background {
